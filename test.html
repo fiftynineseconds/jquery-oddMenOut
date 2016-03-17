@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>jquery oddMenOut example</title>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="jquery-oddMenOut.js"></script>
+</head>
+<body>
+
+	<table class="oddMenOut">
+		<thead>
+			<tr>
+				<th class="oddMenOut-highlight">Test</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>One</td>
+			</tr>
+
+			<tr>
+				<td>Two</td>
+			</tr>
+
+			<tr>
+				<td>Three</td>
+			</tr>
+
+			<tr>
+				<td>One</td>
+			</tr>
+
+			<tr>
+				<td>Two</td>
+			</tr>
+
+			<tr>
+				<td>One</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<script>
+	
+		$(document).ready(function () {
+			$(".oddMenOut").oddMenOut();
+		});
+	</script>
+</body>
+</html>
